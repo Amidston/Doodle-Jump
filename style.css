@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.grid {
+  width: 400px;
+  height: 600px;
+  background-color: yellow;
+  position: relative;
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+  background-image: url(img/background.jpg);
+}
+
+.header {
+  padding-top: 50px;
+  font-size: 0.7em;
+  color: red;
+}
+
+.button {
+  margin-top: 200px;
+  padding: 10px 30px 20px 30px;
+  font-size: 0.5em;
+  background-color: #f4ead7;
+  color: #281e14;
+  border: 1px solid #c0a477;
+  border-radius: 50px;
+}
+
+.doodler {
+  width: 90px;
+  height: 85px;
+  position: absolute;
+  background-image: url(img/doodler.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+}
